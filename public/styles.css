@@ -82,8 +82,10 @@ header {
 #StatusBar {
   font-size: 20px;
   line-height: 5px;
-  border-bottom: 1px solid #818181;
-  width: 350px;
+  padding: 10px 12px;
+  border-bottom: 1px solid #FF671F;
+  border-radius:5px;
+  width: 280px;
 }
 
 .plot {

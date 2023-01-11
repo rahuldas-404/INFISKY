@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Tangerine&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Space+Grotesk&display=swap');
+* {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+#logo {
+  float: left;
+  height: 18%;
+  width: 18%;
+  margin-left: 10%;
+}
+
+#title {
+  text-align: center;
+  font-family: 'Roboto Mono',sans-serif;
+  font-size: 3rem;
+  margin-top: 6.5%;
+  margin-right: -10% ;
+}
+
+#buttons {
+  float: left;
+}
+
+header {
+  background-image: url("images/andromeda.jpg");
+  color: white;
+  margin: 0;
+  border-bottom: 1px solid #818181;
+  position: relative;
+  top: 0%;
+  overflow: hidden;
+}
+
+#content {
+  clear: left;
+  margin-left: 50px;
+}
+
+#buttons {
+  width: 500px;
+  display: inline-block;
+  float :left;
+}
+
+#buttons p {
+  font-size: 20px;
+  width: 400px;
+}
+
+#buttons button{
+    background-color: #fff;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: black;
+    padding: 10px 27px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 4px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+#buttons #ButtonClicked {
+  background-color: #fff;
+  border: 2px solid red;
+  border-radius: 10px;
+  color: black;
+  padding: 10px 27px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 4px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+#StatusBar {
+  font-size: 20px;
+  line-height: 5px;
+  padding: 10px 12px;
+  border-bottom: 1px solid #FF671F;
+  border-radius:5px;
+  width: 280px;
+}
+
+.plot {
+  float: left;
+}
+
+#cartesianCoordinates {
+  margin-top: -20px;
+}
