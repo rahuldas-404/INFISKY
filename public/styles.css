@@ -1,21 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Tangerine&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Space+Grotesk&display=swap');
 * {
   font-family: 'Space Grotesk', sans-serif;
 }
 
 #logo {
   float: left;
-  height: 10%;
-  width: 10%;
+  height: 18%;
+  width: 18%;
   margin-left: 10%;
 }
 
 #title {
   text-align: center;
-  font-family: 'Tangerine',sans-serif;
-  font-size: 3.5rem;
-  margin-top: 2.5%;
+  font-family: 'Roboto Mono',sans-serif;
+  font-size: 3rem;
+  margin-top: 6.5%;
   margin-right: -10% ;
 }
 
@@ -24,7 +24,7 @@
 }
 
 header {
-  background-image: url("images/AstroPic.jpg");
+  background-image: url("images/andromeda.jpg");
   color: white;
   margin: 0;
   border-bottom: 1px solid #818181;
