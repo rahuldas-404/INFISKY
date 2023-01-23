@@ -24,6 +24,7 @@ const parseData = (state, packets) => {
     state.Height.data.push(packet[4]);
     state.Pressure.data.push(packet[5]);
     state.Temperature.data.push(packet[6]);
+    state.Soil_Moisture.data.push(packet[5]);
     state.packets.data.push(packet[0]);
     state.State = 1;
   } else {

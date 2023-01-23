@@ -83,16 +83,24 @@ header {
   font-size: 20px;
   line-height: 5px;
   padding: 10px 12px;
-  border-bottom: 1px solid #FF671F;
+  /* border-top:4px solid #05e109;
+  border-left:4px  solid #05e109;
+  border-right: 4px solid #05e109;
+  border-bottom: 4px solid #05e109; */
   border-radius:5px;
   width: 280px;
   margin-left: 5rem;
   margin-top: 5rem;
   margin-bottom: 3rem;
+  background-color: #e4e4e4;
+
 }
 
 .plot {
+  display: flex;
+  justify-content: center;
   float: left;
+  
 }
 
 #cartesianCoordinates {

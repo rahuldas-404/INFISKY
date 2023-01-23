@@ -16,6 +16,7 @@ const initialState = () => {
     UVindex : { data: [], units: "mW/cm^2"},
     Methane : {data: [], units: "ppm"},
     cartesianCoordinates : { x: [], y: [], z: [] },
+    Soil_Moisture : {data: [], units: "%"},
   });
 }
 //
@@ -50,6 +51,7 @@ const parsePacket = (state,packet) => {
         y: {$push: [newCoordinates.y]},
         z: {$push: [newCoordinates.z]}
       },
+      Soil_Moisture : {data: {$push: [packet[4]]}},
       packets: {data: {$push: [packet[0]]} },
     })
   );

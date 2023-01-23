@@ -13,7 +13,8 @@ const Mission1 = ( {state} ) => (
         {name: "Longtitude", value: lastElementOfArray(state.Longtitude.data), units: state.Longtitude.units},
         {name: "Temperature", value: lastElementOfArray(state.Temperature.data), units: state.Temperature.units},
         {name: "Height", value: lastElementOfArray(state.Height.data), units: state.Height.units},
-        {name: "Pressure", value: lastElementOfArray(state.Pressure.data), units: state.Pressure.units}
+        {name: "Pressure", value: lastElementOfArray(state.Pressure.data), units: state.Pressure.units},
+        {name: "Soil moisture", value: lastElementOfArray(state.Soil_Moisture.data), units: "%"},
       ]}
     />
   </div>
@@ -98,6 +99,15 @@ const Mission1 = ( {state} ) => (
       title = "Descent Path"
     />
  </div>
+
+ <div id="soil_moisture" className="plot">
+      <Plot2D
+        dataToPlot={state.Soil_Moisture.data}
+        packets={state.packets.data}
+        title="Soil_Moisture"
+        units={state.Soil_Moisture.units}
+      />
+    </div>
 
 
 </div>
