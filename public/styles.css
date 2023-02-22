@@ -79,20 +79,34 @@ header {
   cursor: pointer;
 }
 
+#firstMissionPlots, #secondMissionPlots{
+  align-items: center;
+  justify-content: space-between;
+}
+
 #StatusBar {
   font-size: 20px;
   line-height: 5px;
   padding: 10px 12px;
-  border-bottom: 1px solid #FF671F;
+  border-top:4px solid  #FF9933;
+  border-left:4px  solid #000080;
+  border-right: 4px solid #000080;
+  border-bottom: 4px solid #138808;
   border-radius:5px;
   width: 280px;
-  margin-left: 5rem;
+  margin-left: 32rem;
   margin-top: 5rem;
   margin-bottom: 3rem;
+  background-color: #FFFFFF;
 }
 
+
+
 .plot {
+  display: flex;
+  justify-content: center;
   float: left;
+  
 }
 
 #cartesianCoordinates {
