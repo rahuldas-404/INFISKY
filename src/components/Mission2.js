@@ -11,7 +11,7 @@ const Mission2 = ({ state }) => (
           {name: "Status", value: (state.Status===1)? "on-flight": "landed", units: "" },
           {name: "Latitude", value: lastElementOfArray(state.Latitude.data), units: state.Latitude.units},
           {name: "Longtitude", value: lastElementOfArray(state.Longtitude.data), units: state.Longtitude.units},
-          {name: "Soil moisture", value: lastElementOfArray(state.Soil_Moisture.data), units: "%"},
+          {name: "Air_Quality", value: lastElementOfArray(state.Soil_Moisture.data), units: "%"},
           {name: "UV Radiation", value: lastElementOfArray(state.UV_Radiation.data), units: state.UV_Radiation.units}
         ]}
         />
@@ -29,7 +29,7 @@ const Mission2 = ({ state }) => (
       <Plot2D
         dataToPlot={state.Soil_Moisture.data}
         packets={state.packets.data}
-        title="Soil_Moisture"
+        title="Air_Quality"
         units={state.Soil_Moisture.units}
       />
     </div>

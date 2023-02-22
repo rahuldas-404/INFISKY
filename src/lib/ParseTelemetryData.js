@@ -9,7 +9,7 @@ const initialState = () => {
     Pressure : { data: [], units: 'hPa' },
     Longtitude : { data: [], units: '°' },
     Latitude : { data: [], units: '°' },
-    Temperature : { data: [], units: '°C' },
+    Temperature : { data: [], units: '°F' },
     Humidity : {data: [], units: "%"},
     UVa : { data: [], units: 'mW/cm^2' },
     UVb : { data: [], units: 'mW/cm^2' },

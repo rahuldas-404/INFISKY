@@ -5,7 +5,6 @@ import { lastElementOfArray } from '../lib';
 
 const Mission1 = ( {state} ) => (
 <div id="firstMissionPlots">
-
   <div id="StatusBar">
     <StatusBar
       dataToDisplay = { [
@@ -14,7 +13,7 @@ const Mission1 = ( {state} ) => (
         {name: "Temperature", value: lastElementOfArray(state.Temperature.data), units: state.Temperature.units},
         {name: "Height", value: lastElementOfArray(state.Height.data), units: state.Height.units},
         {name: "Pressure", value: lastElementOfArray(state.Pressure.data), units: state.Pressure.units},
-        {name: "Soil moisture", value: lastElementOfArray(state.Soil_Moisture.data), units: "%"},
+        {name: "Air Quality", value: lastElementOfArray(state.Soil_Moisture.data), units: "%"},
       ]}
     />
   </div>
@@ -56,7 +55,7 @@ const Mission1 = ( {state} ) => (
       units={state.Humidity.units}
     />
  </div>
-
+{/* 
  <div id="uva" className="plot">
       <Plot2D
       dataToPlot={state.UVa.data}
@@ -91,7 +90,7 @@ const Mission1 = ( {state} ) => (
       title="Methane Concentration"
       units={state.Methane.units}
     />
- </div>
+ </div> */}
 
  <div id="cartesianCoordinates" className="plot">
     <Plot3D
@@ -104,7 +103,7 @@ const Mission1 = ( {state} ) => (
       <Plot2D
         dataToPlot={state.Soil_Moisture.data}
         packets={state.packets.data}
-        title="Soil_Moisture"
+        title="Air_Quality"
         units={state.Soil_Moisture.units}
       />
     </div>
