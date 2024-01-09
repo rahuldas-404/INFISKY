@@ -7,6 +7,6 @@ This repository hosts the software of our Ground Station. Specifically, we use a
 | App pic1                            |  
 | ----------------------------------- | 
 | ![Alt text](./1.png) |
-| App pic3                            |  
-| ----------------------------------- |
+| App pic1                            |  
+| ----------------------------------- | 
 | ![Alt text](./2.png) |
